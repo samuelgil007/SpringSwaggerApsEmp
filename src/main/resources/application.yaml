@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode=off:
+  datasource:
+    url: jdbc:mysql://uxu4qgstexz2xxhz:pj7bBOlnQzv6izrMUF9E@brt8lqqzo8pep0dv8pes-mysql.services.clever-cloud.com:3306/brt8lqqzo8pep0dv8pes
+    username: uxu4qgstexz2xxhz
+    password: pj7bBOlnQzv6izrMUF9E
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+server:
+  port: 9090
